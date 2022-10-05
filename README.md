@@ -22,7 +22,7 @@ Ou seja, somente o conteúdo de uma pergunta fica visível.
 ![mobile](src/images/mobile.gif)
 <br>
 
-[GitHub Pages]()
+[GitHub Pages](https://lorena-avelino.github.io/Acordeon/)
 
 ## Tecnologias Utilizadas
 <br>
