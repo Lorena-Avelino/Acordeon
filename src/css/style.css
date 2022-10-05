@@ -1,0 +1,84 @@
+.container {
+    width: 655px;
+    min-height: 347px;
+    border-radius: 21px;
+    background: #FCFCFC;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #D4D4D4;
+    width: 390px;
+    margin-bottom: 15px;
+}
+
+.imagem {
+    width: 278px;
+    height: 293px;
+    margin-left: -90px;
+    margin-right: 40px; 
+}
+
+.acordeon .sumario {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.acordeon .sumario::after {
+    content: url('../images/seta.png');
+    position: absolute;
+    right: 13px;
+}
+
+.acordeon[open] .sumario::after{
+    content: url('../images/seta-aberta.png');
+}
+
+.titulo {
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sumario {
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.conteudo {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 350px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .imagem {
+        margin: -90px auto 0;
+    }
+
+    .informacoes {
+        max-width: 280px;
+        margin: 33px;
+    }
+
+    hr {
+        max-width: 300px;
+    }
+}

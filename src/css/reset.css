@@ -1,0 +1,12 @@
+html {
+    font-size: 62.5%;
+    background: #E5E5E5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
